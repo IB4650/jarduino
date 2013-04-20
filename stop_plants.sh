@@ -1,0 +1,1 @@
+ps | grep start_plants.sh  | awk '{print $1}' | xargs kill

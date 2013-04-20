@@ -1,0 +1,5 @@
+#for plants.conf file, Set values with COMMA separated
+#plantname,update_delay_in_minutes,analog_input_pin
+example:
+
+Lilium,20,5

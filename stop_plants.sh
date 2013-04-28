@@ -1,1 +1,1 @@
-ps | grep start_plants.sh  | awk '{print $1}' | xargs kill
+ps aux | grep [start]_plants.sh | awk '{print $2}' | xargs kill

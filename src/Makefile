@@ -20,7 +20,7 @@ LIBS=../libarduino.a
 TARGET=../bin
 
 
-OBJS = plant
+OBJS = plant tmp36
 
 all: 
 	@mkdir -p $(TARGET)

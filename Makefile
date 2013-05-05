@@ -61,8 +61,7 @@ OBJS = $(patsubst %.c,%.o,$(patsubst %.cpp,%.o,$(SRCS)))
 LIB = libarduino.a 
 
 all: $(LIB)
-	make -C bin/
-
+	make -C src/
 
 $(LIB): $(OBJS)
 	$(AR) cq $(LIB) $(OBJS)
